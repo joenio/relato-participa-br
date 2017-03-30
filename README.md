@@ -17,7 +17,7 @@ trabalho.
 
 Dependencias de compilação:
 
-    apt-get install latex-mk texlive make
+    apt-get install latex-mk texlive make texlive-publishers
 
 Para compilar basta executar `make`:
 
