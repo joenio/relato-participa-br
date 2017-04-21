@@ -4,6 +4,7 @@
 \usepackage{fancyvrb}
 \usepackage[alf]{abntex2cite}
 \usepackage{graphicx}
+\usepackage{hyperref}
 
 \title{
   Participa.br: Uma plataforma de participação democrática do governo Brasileiro
@@ -181,7 +182,7 @@ Open Government Partnership (OGP) - Plano de Ação Brasileiro para a Parceria d
 Governo Aberto.
 
 A Plataforma Federal de Participação social pode ser acessada a partir do
-endereço: http://www.participa.br. A partir de uma interface clara, que permite
+endereço \url{http://www.participa.br}. A partir de uma interface clara, que permite
 a navegação por temas, o Portal de Participação Social é um espaço onde os
 diferentes agentes de governo, movimentos, organizações e cidadãos em geral
 encontrarão solo fértil e facilitado para o exercício da construção
@@ -213,7 +214,7 @@ termo de uso do portal.
 
 A equipe de comunicação acompanha/monitora as redes sociais e no bloco de
 ``redes sociais''  dá visibilidade às interações oriundas dos diversos perfis da
-plataforma, assim como acompanha \#hashtags de interesse para a mobilização dos
+plataforma, assim como acompanha \texttt{\#hashtags} de interesse para a mobilização dos
 diálogos e processos participativos nas redes sociais, como forma de atrair e
 mobilizar o cidadão dessas redes para o diáogo e participação na construção de
 políticas públicas na plataforma.
@@ -222,8 +223,13 @@ A capa contempla ainda núvem de TAGs, Comunidades de debate (comunidades na
 rede, onde os processos participativos são realizados) e as principais trilhas
 de participação (as que estão em destaque - mais quentes). O portal conta com
 espaço de ajuda e indicação de como pode ser aproveitado.
- 
-(Figura 3 - Layout geral da capa do Participa.br com suas Alguém confere ou completa)
+
+\begin{figure}[h]
+  \center
+  \includegraphics[scale=0.4]{imagens/screenshot-participa.png}
+  \caption{Layout geral da capa do Participa.br com suas comunidades e participantes.}
+  \label{screenshot-participa}
+\end{figure}
 
 Tendo por base a premissa de que a incursão e abertura de canais de acesso ao
 poder público na rede aumentam o conhecimento das ações do governo e diminuem
@@ -245,8 +251,8 @@ Plataforma Federal de Participação Social, assim como as falas no Ministro da
 SG/PR e da Presidenta sobre a PNPS e o portal.
 
 \begin{enumerate}
-  \item Link do vídeo sobre o participa.br: \url{https://www.youtube.com/watch?v=BRh2QLIu9yw}
-  \item Fala do Ministro Gilberto Carvalho e da Presidenta da República sobre a PNPS e o participa.br: \url{https://www.youtube.com/watch?v=Hj1xuqzHQT8}
+  \item Link do vídeo sobre o participa.br: \url{https://youtu.be/BRh2QLIu9yw}
+  \item Fala do Ministro Gilberto Carvalho e da Presidenta da República sobre a PNPS e o participa.br: \url{https://youtu.be/Hj1xuqzHQT8}
 \end{enumerate}
 
 O Decreto Presidencial nº 8243/2014 que institui a Política Nacional de
@@ -289,7 +295,7 @@ observadas, no mínimo, as seguintes diretrizes:
 
 Caso algum Estado ou Município não deseje utilizar a plataforma disponibilizada
 pelo Governo Federal, este poderá instalar a sua própria instância do
-participa.br com todas as suas funcionalidades, pois este projeto utiliza
+Participa.br com todas as suas funcionalidades, pois este projeto utiliza
 tecnologias livres e abertas, e todo o código do desenvolvimento está
 disponível para qualquer cidadão. Poderão ainda customizar a plataforma de
 acordo com o seu desejo, implementar melhorias, e fazer parte do consórcio de
@@ -318,13 +324,13 @@ consulta em julho de 2013.
 A concepção do Portal de Participação Social também se inspirou em outras
 iniciativas de participação ou redes sociais, tais como: 
 
-\begin{enumerate} % mudar o formato da lista para a) b) c)
-  \item Participatório da Juventude da Secretaria Nacional da juventude;
-  \item Gabinete Digital do Governo do Rio Grande do Sul;
-  \item Portal E-democracia da Câmara dos Deputados.
+\begin{enumerate}
+  \item Participatório da Juventude da Secretaria Nacional da juventude\footnote{\url{http://juventude.gov.br}};
+  \item Gabinete Digital do Governo do Rio Grande do Sul\footnote{\url{http://gabinetedigital.rs.gov.br}};
+  \item Portal E-democracia da Câmara dos Deputados\footnote{\url{http://edemocracia.camara.leg.br}}.
 \end{enumerate}
 
-O participa.br é uma ação de planejamento estratégico do Departamento de
+O Participa.br é uma ação de planejamento estratégico do Departamento de
 Participação Social que integra a Secretaria Nacional de Articulação Social da
 Secretaria Geral da Presidência da República. Dentro do contexto dos movimentos
 e manifestações de junho de 2013 passou também a ser ação estratégica do
@@ -345,7 +351,7 @@ documentação em rede.
 Este processo permite que o cidadão ajude o Governo a construir as ferramentas
 que irão contribuir com os processos de participação mediados por tecnologia.
 Trata-se de um conceito de ``participação social no código fonte'' das
-plataformas (softwares). Isso só é possível a partir do emprego de Software
+plataformas de software. Isso só é possível a partir do emprego de Software
 Livre e licenças e tecnologias abertas. 
 
 Durante o desenvolvimento da plataforma diversos atores foram envolvidos. A
@@ -353,7 +359,7 @@ sociedade participou de reuniões on line para levantamento de requisitos e
 design participativo da plataforma. Na Secretaria Geral da Presidência também
 foram realizadas reuniões de concepção e construção dos requisitos para o
 desenvolvimento. A união de esforços e ideias resultou em uma sólida
-conceituação e formulação do principais aspectos constitutivos do Portal.
+conceituação e formulação do principais aspectos constitutivos do portal.
 
 O processo de desenvolvimento também superou barreiras impostas pelo processo
 tradicional de desenvolvimento de software na administração pública federal,
@@ -362,10 +368,10 @@ Livre, não ficam acessíveis a Sociedade. Para unir esforços e ampliar o
 aproveitamento de recursos, estabelecemos um consórcio de desenvolvimento que
 uniu Sociedade e Governo, onde a premissa maior foi o retorno das melhorias
 feitas no código fonte do software à arvore principal de desenvolvimento de sua
-comunidade. A plataforma escolhida dentre várias estudadas foi o Noosfero.
+comunidade. A plataforma escolhida dentre várias estudadas foi o Noosfero\footnote{\url{http://noosfero.org}}.
 
-De uma lado, como sociedade civil, estavam a comunidade de desenvolvimento da
-plataforma Noosfero e sua principal mantenedora de código fonte, a Colivre,
+De um lado, como sociedade civil, estavam a comunidade de desenvolvimento da
+plataforma Noosfero e sua principal mantenedora de código fonte, a cooperativa Colivre\footnote{\url{http://colivre.coop.br}},
 articulada com outros atores e comunidades de desenvolvimento da sociedade que
 já utilizavam essa plataforma de rede social, tais como: Universidade de São
 Paulo, Universidade de Brasília, e Cirandas.net (Iniciativa do Fórum Brasileiro
@@ -374,7 +380,7 @@ governamentais: Secretaria Geral da Presidência da República (SG/PR) por meio
 da Secretaria Nacional de Articulação Social (SNAS), Secretaria Nacional da
 Juventude (SNJ), Serviço Federal de Processamento de Dados (SERPRO), Ministério
 do Planejamento, Orçamento e Gestão (MPOG) por meio da Secretaria de Lógistica
-e Tecnologia da Informação (SLTI). A plataforma noosfero é o ponto comum do
+e Tecnologia da Informação (SLTI). A plataforma Noosfero é o ponto comum do
 consórcio e todos os atores estão envolvidos em colaborar, melhorar suas
 possibilidades e devolver as melhorias do software à Sociedade. São dois
 conjuntos de atores que colaboram em pról do mesmo ponto comum de interseção: a
@@ -384,10 +390,10 @@ e aberta, e novas metodologias de participação social mediadas por tecnologias
 são incorporadas paulatinamente conforme a necessidade de cada ator do
 consórcio.
 
-A inspiração para criação da Plataforma Federal de Participação Social foi
+A inspiração para criação da Plataforma Federal de Participação Social Participa.br foi
 composta por várias vertentes. Uma delas foi o Participatório da Juventude.
 Inicialmente o Participatório, a rede social para juventude da Secretaria
-Nacional da Juventude, utilizou a ferramenta ELGG. Uma rede social livre
+Nacional da Juventude, utilizou a ferramenta ELGG\footnote{\url{http://elgg.org}}. Uma rede social livre
 desenvolvida em linguagem PHP. Após o lançamento, consolidação e resultados
 positivos do Participa.br, empregando Noosfero em sua concepção, a Secretaria
 Nacional da Juventude optou por adotar a mesma plataforma do Portal Federal da
@@ -403,7 +409,7 @@ adoção da plataforma Noosfero.
 Alinhado a estes dois processos anteriores, o Serviço Federal de Processamento
 de Dados (SERPRO), órgão responsável pela gestão de infraestrutura de sistemas
 em produção do Governo Federal, também incorporou a tecnologia Noosfero em seu
-ambiente interno. Trata-se do \#você.serpro: a rede social corporativa do
+ambiente interno. Trata-se do \texttt{\#você.serpro}, a rede social corporativa do
 SERPRO. A partir dessa iniciativa de internalização dessa tecnologia o SERPRO
 passou a oferecer essa plataforma como um dos produtos disponíveis para portal
 de rede sociais no Governo Federal.
@@ -411,13 +417,18 @@ de rede sociais no Governo Federal.
 Todos esses processos de adoção e desenvolvimento colaborativo consolidam ainda
 mais a comunidade de desenvolvimento em torno da plataforma Noosfero.
 
-O ambiente de desenvolvimento do participa.br é permeado e documentado por meio
+O ambiente de desenvolvimento do Participa.br é permeado e documentado por meio
 de metodologias ágeis, utilizando-se de repositório público e sistema de
-gerência de tarefas e bugs público (tracker Gitlab). Todo o código é
+gerência de tarefas e bugs público através do serviço de gestão de projetos \url{Gitlab.com}. Todo o código é
 licenciado em AGPLv3 ou licença compatível e está disponível para qualquer
 cidadão.
 
-(Figura 5- Issues do sistema público de gerência de tarefas e bugs (GIT LAB) do participa.br)
+\begin{figure}[h]
+  \center
+  \includegraphics[scale=0.25]{imagens/screenshot-gitlab.png}
+  \caption{Issues do sistema público de gerência de tarefas e bugs no Gitlab.com do Participa.br.}
+  \label{screenshot-gitlab}
+\end{figure}
 
 Todo o processo de desenvolvimento da Plataforma Federal de Participação Social
 (Participa.br) está alinhado aos objetivos da Política Nacional de Participação
@@ -430,16 +441,16 @@ códigos fonte livres e auditáveis, ou os disponíveis no Portal do Software
 Público Brasileiro''.
 
 Cabe ainda destacar que a consulta pública do Decreto Presidencial nº 8243/2014
-que institui a PNPS também foi realizado por meio do participa.br empregando um
+que institui a PNPS também foi realizado por meio do Participa.br empregando um
 processo participativo e colaborativo.
 
 \subsection{Consultores do Participa.br}
 
-A equipe de desenvolvimento do participa.br contempla um conjunto de atores com
+A equipe de desenvolvimento do Participa.br contempla um conjunto de atores com
 perfis diversificados. Cada um tem atuação em uma área relevante e específica,
 mas seus esforços se somam ao contexto maior da equipe. As atividades envolvem
 formulação de requisitos e diretrizes compreende gestão do desenvolvimento de
-software, pesquisa e desenvolvimento metodológico, geração de automatizada de
+software, pesquisa e desenvolvimento metodológico, geração automatizada de
 indicadores, dados linkados/web semântica, planejamento da comunicação e
 monitoramento, capacitação para gestão de comunidades, planejamento e gestão de
 trilhas de participação e realização de atividades presenciais de participação
@@ -448,8 +459,10 @@ documento que detalha as atividades realizadas pelo time de consultores
 integrantes da equipe de desenvolvimento  com o detalhamento de suas atividades
 (produtos) realizadas na construção da plataforma.
 
-%Link do documento de produtos dos consultores:
-%https://docs.google.com/document/d/1-eZO5KPiDy6SZXG6MazqCwU7geWkVlMklGR4EI9LgYQ/edit?usp=sharing 
+\begin{description}
+  \item [Documento de produtos dos consultores]
+  \url{https://docs.google.com/document/d/1-eZO5KPiDy6SZXG6MazqCwU7geWkVlMklGR4EI9LgYQ/edit?usp=sharing}
+\end{description}
 
 Todo o processo de gestão e desenvolvimento das principais atividades que
 conduziram a construção do Participa.br está descrito no quadro abaixo. São
@@ -462,92 +475,74 @@ exemplificar as ações.
 
   \item [Outubro 2011] Oficina do portal da participação social no seminário
   nacional de participação social \footnote{\url{http://www.youtube.com/watch?v=IRE7Y0zWDsw}};
-  Primeira norícia publicada na mídia (wireless mundi)
+  Primeira notícia publicada na mídia (wireless mundi)
   \footnote{\url{http://www.wirelessmundi.inf.br/noticias-geral/161-governo-cria-portal-da-participacao-social}}
 
   \item [Novembro 2012]
-  Formação da equipe do Participa.br
+  Formação da equipe do Participa.br.
 
   \item [Dezembro 2012]
   Escolha de ferramentas para a implementação do Participatório da Juventude da
   SNJ (Noosfero, ELGG e outras).
 
-\end{description}
+  \item [Janeiro 2013]
+  A DITEC da SG/PR disponibiliza o ambiente com Noosfero
+  <http://www.psocial.sg.gov.br/> para avaliação da equipe do Participa.br.
 
-%Janeiro 2013
-%A DITEC da SG/PR disponibiliza o ambiente com Noosfero <http://www.psocial.sg.gov.br/>  para avaliação da equipe do participa.br 
-%
-%Abril 2013
-%Início do processo de seleção para contratação de consultores
-%
-%Abril 2013
-%Contratação do SERPRO para desenvolvimento e infraestrutura de hospedagem da plataforma participa.br
-%
-%Maio 2013
-%Início do ciclo reuniões com a sociedade civil para a construção participativa e levantamento de requisitos e design da plataforma
-%
-%Julho 2013
-%Primeira consulta pública  no Participa.br para a construção colaborativa da Política Nacional da Participação Social (PNPS) e do Compromisso Nacional da Participação Social (CNPS)
-%
-%Setembro 2013
-%Reunião sobre o que é o Participa.br e apresentação de ideias para a coordenação de comunicação do Portal.
-%20/11/2013
-%Reunião de planejamento com ASCOM/SG-PR, Secretaria-Executiva/SG-PR e equipe Participa.br
-%24/11/2013
-%Envio a sugestão de Plano de Comunicação para o Participa.br
-%25/11/2013 
-%Oficina com os consultores para aprender a usar o Noosfero 
-%28/11/2013
-%Primeiras sugestões de logo do Participa.br
-%
-%26/11/2013 
-%Construção da lista de possíveis temas para comunidades do Participa.br. A meta era ter na plataforma temas essenciais para sociedade (Saúde, educação, mobilidade urbana, segurança e reforma política). Os temas foram os que mais apareceram nos protestos de junho de 2013. Infelizmente não foi possível abrigar debates com todos os temas, ou por falta de lideranças sociais dispostas a utilizar o Participa.br como plataforma de debate ou por falta de representantes do governo. A equipe do Participa.br continua empenhada neste sentido. 
-%29/11/2013
-%Continuação da oficina para aprender a usar o Noosfero
-%29/11/2013
-%Início da mobilização para criação de comunidades. A equipe fez contato com diversos órgãos do Governo Federal e sociadade civil.
-%Dezembro 2013
-%Concurso Desafio de Ideias para a criação de aplicativos para o Participa.br (http://migre.me/l8smH)
-%Dezembro 2013
-%Criada a comunidade Ajuda no Participa.br para orientar os usuários sobre a utilização da plataforma.
-%Dezembro 2013
-%
-%
-%Reunião com represententes da CGU para a criação de comunidade. O órgão realizou consulta pública no Participa.br para a construção colaborativa  do Sistema Nacional de Ouvidorias ( www.participa.br/ouvidorias)
-%05/12/2013
-%Mudança na url do Participa.br. 
-%A equipe optou por não adotar o .gov.br, mas sim o .br. A intenção é deixar claro que não se trata de site do governo, mas sim de uma plataforma da qual a sociedade pode, e deve, se apropriar para debate e construção de políticas públicas.
-%06/12/2013
-%Criação da Comunidade de Educultura - do Departamento de Educação Popular. 
-%
-%Mais tarde, foi realizada a consulta pública para a construção colaborativa da Política Nacional da Educação Popular (www.participa.br/educultura)
-%
-%
-%18/12/2013
-%Primeiras sugestões de tela para o Participa.br, que já estava em funcionamento, ou seja, algumas comunidades já realizavam processos participativos.
-%
-%
-%Janeiro de 2014 
-%- Primeira reunião com equipe do Participatório da Juventude para integração dos sistemas.
-%
-%- Ajustes e desenvolvimento de novas ferramentas para atendes às necessidades da comunidade Comigrar.
-%
-%- Primeiras reuniões para o desenvolvimento de uma ontologia do Participa.br, com vistas à triplificação dos seus dados em RDF para disponibilização.
-%Fevereiro 2014
-%- A equipe do Participa.br formulou documento contendo as principais funcionalidades da ferramenta para facilitar a apresentação aos órgãos de governo e sociedade.
-%
-%- Também foi escrito um guia de estilo da plataforma (fonte, cores, etc).
-%
-%- Início do planejamento para a realização da Arena Netmundial, que seria a maior consulta pública já realizada na internet.
-%
-%- Estabelecimento de uma versão inicial da ontologia do particpa.br (OPA), para uso com a ontologia de participação social (OPS).
-%20/03/2014
-%- Foi realizado um hangout, com a participação remota de convidados, para lançar a consulta pública sobre governança da internet no Brasil: https://www.youtube.com/watch?v=tWbRQ125LW4
-%
-%No dia 20 de março, as 17 horas, especialistas web, governo, blogueiros, jornalistas e internautas estarão ao vivo debatendo o futuro da governança da Internet. Quais direitos estão em jogo na sociedade conectada? Qual a importância da privacidade? A internet tem dono?
-%
-%Venha conversar sobre essas e outras questões!
-%
+  \item [Abril 2013]
+  Início do processo de seleção para contratação de consultores;
+  Contratação do SERPRO para desenvolvimento e infraestrutura de hospedagem da plataforma Participa.br.
+
+  \item [Maio 2013]
+  Início do ciclo reuniões com a sociedade civil para a construção
+  participativa e levantamento de requisitos e design da plataforma.
+
+  \item [Julho 2013]
+  Primeira consulta pública  no Participa.br para a construção colaborativa da
+  Política Nacional da Participação Social (PNPS) e do Compromisso Nacional da
+  Participação Social (CNPS).
+
+  \item [Setembro 2013]
+  Reunião sobre o que é o Participa.br e apresentação de ideias para a
+  coordenação de comunicação do Portal.
+
+  \item [Novembro 2013]
+  Reunião de planejamento com ASCOM/SG-PR, Secretaria-Executiva/SG-PR e equipe Participa.br;
+  Envio a sugestão de Plano de Comunicação para o Participa.br;
+  Oficina com os consultores para aprender a usar o Noosfero;
+  Primeiras sugestões de logo do Participa.br;
+  Construção da lista de possíveis temas para comunidades do Participa.br. A meta era ter na plataforma temas essenciais para sociedade (Saúde, educação, mobilidade urbana, segurança e reforma política). Os temas foram os que mais apareceram nos protestos de junho de 2013. Infelizmente não foi possível abrigar debates com todos os temas, ou por falta de lideranças sociais dispostas a utilizar o Participa.br como plataforma de debate ou por falta de representantes do governo. A equipe do Participa.br continua empenhada neste sentido.;
+  Continuação da oficina para aprender a usar o Noosfero;
+  Início da mobilização para criação de comunidades. A equipe fez contato com diversos órgãos do Governo Federal e sociadade civil.
+
+  \item [Dezembro 2013]
+  Concurso Desafio de Ideias para a criação de aplicativos para o Participa.br (http://migre.me/l8smH);
+  Criada a comunidade Ajuda no Participa.br para orientar os usuários sobre a utilização da plataforma;
+  Reunião com represententes da CGU para a criação de comunidade. O órgão realizou consulta pública no Participa.br para a construção colaborativa  do Sistema Nacional de Ouvidorias ( www.participa.br/ouvidorias);
+  Mudança na url do Participa.br;
+  A equipe optou por não adotar o .gov.br, mas sim o .br. A intenção é deixar claro que não se trata de site do governo, mas sim de uma plataforma da qual a sociedade pode, e deve, se apropriar para debate e construção de políticas públicas;
+  Criação da Comunidade de Educultura - do Departamento de Educação Popular;
+  Mais tarde, foi realizada a consulta pública para a construção colaborativa da Política Nacional da Educação Popular (www.participa.br/educultura);
+  Primeiras sugestões de tela para o Participa.br, que já estava em funcionamento, ou seja, algumas comunidades já realizavam processos participativos.
+
+  \item [Janeiro 2014]
+  Primeira reunião com equipe do Participatório da Juventude para integração dos sistemas;
+  Ajustes e desenvolvimento de novas ferramentas para atendes às necessidades da comunidade Comigrar;
+  Primeiras reuniões para o desenvolvimento de uma ontologia do Participa.br, com vistas à triplificação dos seus dados em RDF para disponibilização;
+
+  \item [Fevereiro 2014]
+  A equipe do Participa.br formulou documento contendo as principais funcionalidades da ferramenta para facilitar a apresentação aos órgãos de governo e sociedade;
+  Também foi escrito um guia de estilo da plataforma (fonte, cores, etc);
+  Início do planejamento para a realização da Arena Netmundial, que seria a maior consulta pública já realizada na internet;
+  Estabelecimento de uma versão inicial da ontologia do particpa.br (OPA), para uso com a ontologia de participação social (OPS).
+
+  \item [Março 2014]
+  Foi realizado um hangout, com a participação remota de convidados, para lançar a consulta pública sobre governança da internet no Brasil: https://www.youtube.com/watch?v=tWbRQ125LW4;
+  No dia 20 de março, as 17 horas, especialistas web, governo, blogueiros, jornalistas e internautas estarão ao vivo debatendo o futuro da governança da Internet. Quais direitos estão em jogo na sociedade conectada? Qual a importância da privacidade? A internet tem dono?;
+  Venha conversar sobre essas e outras questões!;
+  Primeiras experiências com streaming de estruturas sociais (meteor+d3 para visualizar formação de redes no Twitter);
+  Comunidade Agroecologia realiza a Oficina do Ecoforte com transmissão online pelo Participa.br.
+
 %No site www.participa.br você poderá interagir com:
 %
 % - Diogo de Sant´Ana, Secretario Executivo da Secretaria Geral da Presidência da República
@@ -558,51 +553,33 @@ exemplificar as ações.
 %Para participar você pode enviar perguntas e comentários através do Twitter e Facebook usando a hashtag #ArenaNetMundial. 
 %
 %O evento é parte das ações de mobilização do Arena NET mundial Participa.br e acontece durante a realização da consulta pública para saber o que a sociedade acha importante sobre o futuro da internet.
-%
-%Primeiras experiências com streaming de estruturas sociais (meteor+d3 para visualizar formação de redes no Twitter).
-%27/03/2014
-%Comunidade Agroecologia realiza a Oficina do Ecoforte com transmissão online pelo Participa.br
-%Abril de 2014
-%A equipe planeja a cobertura colaborativa da Arena Netmundial. Pessoas de diversos estados desenvolveram na iniciativa. Além disso, estudantes puderam participar do evento como convidados pela SG-PR (foi a primeira vez que o Governo Federal articulou ação com IES neste sentido) -  http://migre.me/iMKQF
-%
-%
-%Abril de 2014
-%Desenvolvimento de aplicativo de participação social (HUB de Participação) para celular e tablet, empregado no Arena NET Mundial.
-%
-%29 de abril de 2014
-%- ArenaNETmundial encerra com mais de 2 milhões de acessos na transmissão online
-%
-%- Divulgado o resultado da consulta pública sobre governança da internet:  "mais de 281 mil votos, recebendo quase trezentas propostas e aglutinando um total de 41 diretrizes para a elaboração de um novo modelo de governança global da internet, tudo definido de forma integralmente participativa"
-%
-%- Durante o ArenaNETmundial, foram mantidos online  telões para visualização das redes sociais do Twitter confome relacionamento por retweet e vocabulário (observados somente tweets com hashtags de interesse). Estas redes eram também exibidas presencialmente no ArenaNETmundial.
-%Maio de 2014
-%- Maratona Hacker das organizações da sociedade civil. Promovida pela comunidade MROSC. no Participa.br
-%http://www.brasil.gov.br/governo/2014/05/governo-promove-maratona-hacker-das-organizacoes-da-sociedade-civil
-%
-%- Participa.br é apresentado durante o 15 Fórum Internacional Software Livre (FISL)
-%
-%- Primeiras triplificações e disponibilização dos dados do participa.br em RDF via endpoint SparQL.
-%21 de maio de 2014
-%Hangut com o ministro Gilberto Carvalho para conversar com a sociedade sobre participação social como método de governo
-%http://gestao.participa.br/portal/blog/ministro-gilberto-carvalho-conversa-com-a-sociedade-sobre-participacao-social
-%
-%
-%
-%22 de maio de 2014
-%Acontece a Arena da Participação social onde a presidenta Dilma Rousseff lança oficialmente o Participa.br e sanciona o decreto n 8.243/14
-%http://www.secretariageral.gov.br/noticias/2014/05/22-05-2014-abertura-da-arena-da-participacao-marca-a-conquista-dos-espacos-de-participacao
-%
-%
-%
-%
-%Congelamento do Participa.br
-%Julho de 2014
-%- Sistematizações para a Biblioteca Digital de gestão do conhecimento de participação.
-%
-%- Análises iniciais dos dados do participa.br, disponibilizados via critérios semânticos em um endpoint SparQL e analisados em Python via mineração de redes e texto.
-%Agosto de 2014
-%- Versão inicial da API de recomendações para o participa.br: participantes, comunidades, trilhas e comentários recomendados para o participante, para comunidades  ou para linha editorial.
-%
+
+  \item [Abril 2014]
+  A equipe planeja a cobertura colaborativa da Arena Netmundial. Pessoas de diversos estados desenvolveram na iniciativa. Além disso, estudantes puderam participar do evento como convidados pela SG-PR (foi a primeira vez que o Governo Federal articulou ação com IES neste sentido) -  http://migre.me/iMKQF;
+  Desenvolvimento de aplicativo de participação social (HUB de Participação) para celular e tablet, empregado no Arena NET Mundial;
+  ArenaNETmundial encerra com mais de 2 milhões de acessos na transmissão online;
+  Divulgado o resultado da consulta pública sobre governança da internet:  "mais de 281 mil votos, recebendo quase trezentas propostas e aglutinando um total de 41 diretrizes para a elaboração de um novo modelo de governança global da internet, tudo definido de forma integralmente participativa";
+  Durante o ArenaNETmundial, foram mantidos online  telões para visualização das redes sociais do Twitter confome relacionamento por retweet e vocabulário (observados somente tweets com hashtags de interesse). Estas redes eram também exibidas presencialmente no ArenaNETmundial;
+
+  \item [Maio 2014]
+  Maratona Hacker das organizações da sociedade civil. Promovida pela comunidade MROSC. no Participa.br
+  http://www.brasil.gov.br/governo/2014/05/governo-promove-maratona-hacker-das-organizacoes-da-sociedade-civil ;
+  Participa.br é apresentado durante o 15 Fórum Internacional Software Livre (FISL);
+  Primeiras triplificações e disponibilização dos dados do participa.br em RDF via endpoint SparQL;
+  Hangut com o ministro Gilberto Carvalho para conversar com a sociedade sobre participação social como método de governo
+  http://gestao.participa.br/portal/blog/ministro-gilberto-carvalho-conversa-com-a-sociedade-sobre-participacao-social ;
+  Acontece a Arena da Participação social onde a presidenta Dilma Rousseff lança oficialmente o Participa.br e sanciona o decreto n 8.243/14
+  http://www.secretariageral.gov.br/noticias/2014/05/22-05-2014-abertura-da-arena-da-participacao-marca-a-conquista-dos-espacos-de-participacao ;
+  Congelamento do Participa.br.
+
+  \item [Julho 2014]
+  Sistematizações para a Biblioteca Digital de gestão do conhecimento de participação;
+  Análises iniciais dos dados do participa.br, disponibilizados via critérios semânticos em um endpoint SparQL e analisados em Python via mineração de redes e texto;
+
+  \item [Agosto 2014]
+  Versão inicial da API de recomendações para o participa.br: participantes, comunidades, trilhas e comentários recomendados para o participante, para comunidades ou para linha editorial.
+
+\end{description}
 
 \subsection{Recursos financeiros}
 
@@ -630,39 +607,63 @@ Noosfero.
 
 \subsection{Recursos Humanos}
 
-A composição da equipe do participa.br está descrita
-abaixo e contempla os atores diretamente envolvidos em seu de desenvolvimento e
-implementação.
+A composição da equipe do Participa.br está descrita abaixo e contempla os
+atores diretamente envolvidos em seu de desenvolvimento e implementação.
 
-1) Equipe do participa.br
+\begin{description}
 
-%1.1) Coordenação do Projeto Participa.br - SG/PR
-%Ricardo Augusto Poppi Martins  - Coordenador Geral de Novas Mídias e outras Linguagens de Participação Social - Assessor da SG/PR
-%Ronald Emerson Scherolt da Costa - Coordenador da Equipe de Desenvolvimento do Participa.br - Assessor Técnico da SG/PR
-%
-%1.2) Consultores PNUD / SG/PR
-%Daniela Soares Feitosa  -Consultora do participa.br e mestranda em Ciência da Computação pela Unniversidade Federal da Bahia. Integrante do time de desenvolvimento da plataforma Noosfero e sócia da Colivre.
-%Fabiano Rangel Cidade - Consultor de Design Web e Arquiteto de Informação do projeto. Responsável pela coleta e análise de informações para definição de conceitos de criaçao e planejamento, gerando novas ideias, alternativas e conceitos gráficos que determinem as identidades visuais do projeto. Fundador e empresário de startup (faracy.com.br) segmento de Cultura Digital e cultura popular.
-%Joenio Marques da Costa - Consultor do participa.br e mestrando em Ciência da Computação pela Universidade Federal da Bahia, membro do time de desenvolvimento da plataforma Noosfero, sócio-fundador da Colivre, administrador de sistemas com foco em tecnologias livres e contribuidor de projetos de software livre como Foswiki, Debian e Analizo.
-%Renato Fabbri - Consultor do participa.br com ênfase em dados linkados, redes complexas e processamento de linguagem natural. Pesquisador, atualmente é candidato ao doutorando em física computacional no IFSC/USP. Participante co-fudador no labMacambira.sf.net, trabalhou com diversos grupos artísticos e de desenvolvimento tecnológico, com ênfase em cultura livre e digital.
-%Fernando Cruz  - Consultor do participa.br e Doutor em Ciência da Informação pela Universidade de Brasília e professor do curso de Engenharia de Software dessa mesma universidade. Trabalha com bibliotecas digitais, ontologias e web semântica.
-%Fabricio Solagna - Consultor do participa.br e mestrando em Sociologia pela Universidade Federal do Rio Grande do Sul (UFRGS). É pesquisador e membro fundador do Grupo de Trabalho de Antropologia da Propriedade Intelectual (ANTROPI). É membro da Associação Software Livre.Org e organizador do Fórum Internacional de Software Livre (FISL). Foi coordenador-executivo do Gabinete Digital do Rio Grande do Sul de 2011 a 2013 (www.gabinetedigital.rs.gov.br). 
-%Ana Célia da Silva Costa - Consultora do participa.br. Especialista em Marketing Digital pelo Instituto de Ensino Superior de Brasília. Formada em Comunicação com habilitação em Jornalismo, pela Universidade Federal do Amazonas. Pesquisadora de Social Media Monitoring. Trabalha na área desde 2005. Clientes: Embaixada do Reino Unido, Governo do Espírito Santo, Governo do Distrito Federal, Ministério da Saúde, Ministério da Integração, Governo da Bahia e outros. 
-%Grazielle Machado Fernandes - Consultora do participa.br. Formada em jornalismo com especialização em política. Trabalha com comunicação e novas mídias desde 2008, ajudou a implementar a chamada assessoria 2.0 no ministério da Cultura e trabalhou em agência de públicidade como coordenadora de planejamento onde desenvolveu projetos para grandes clientes, entre eles: Partido dos Trabalhadores, Banco do Brasil, SESI, Unesco e BNDES. 
-%
-%1.3) Comunidades de Software Livre e Entidades envolvidas
-%Comunidade Noosfero
-%Colivre - Cooperativa de Software Livre - Salvador - Bahia.
-%STOA/USP
-%Comunidade UNB
-%Grupo de alunos e professores de desenvolvimento do Laboratório LAPIS da UNB/Gama em Brasília.
-%SERPRO
-%Secretaria Geral da Presidência (SG/PR)
-%Ministério do Planejamento Orçamento e Gestão (MPOG)
-%Portal do Software Público.
-%Secretaria de Logística e Tecnologia da Informação (SLTI)
-%EITA (Cooperativa de Economia Solidária)
-%Blogoosfero (Rede livre de blogs)
+  \item [Ricardo Augusto Poppi Martins]
+  - Coordenador Geral de Novas Mídias e outras Linguagens de Participação Social - Assessor da SG/PR.
+
+  \item [Ronald Emerson Scherolt da Costa]
+  - Coordenador da Equipe de Desenvolvimento do Participa.br - Assessor Técnico da SG/PR.
+
+  \item [Daniela Soares Feitosa]
+  - Consultora do participa.br e mestranda em Ciência da Computação pela Unniversidade Federal da Bahia. Integrante do time de desenvolvimento da plataforma Noosfero e sócia da Colivre.
+
+  \item [Fabiano Rangel Cidade]
+  - Consultor de Design Web e Arquiteto de Informação do projeto. Responsável pela coleta e análise de informações para definição de conceitos de criaçao e planejamento, gerando novas ideias, alternativas e conceitos gráficos que determinem as identidades visuais do projeto. Fundador e empresário de startup (faracy.com.br) segmento de Cultura Digital e cultura popular.
+
+  \item [Joenio Marques da Costa]
+  - Consultor do participa.br e mestrando em Ciência da Computação pela Universidade Federal da Bahia, membro do time de desenvolvimento da plataforma Noosfero, sócio-fundador da Colivre, administrador de sistemas com foco em tecnologias livres e contribuidor de projetos de software livre como Foswiki, Debian e Analizo.
+
+  \item [Renato Fabbri]
+  - Consultor do participa.br com ênfase em dados linkados, redes complexas e processamento de linguagem natural. Pesquisador, atualmente é candidato ao doutorando em física computacional no IFSC/USP. Participante co-fudador no labMacambira.sf.net, trabalhou com diversos grupos artísticos e de desenvolvimento tecnológico, com ênfase em cultura livre e digital.
+
+  \item [Fernando Cruz]
+  - Consultor do participa.br e Doutor em Ciência da Informação pela Universidade de Brasília e professor do curso de Engenharia de Software dessa mesma universidade. Trabalha com bibliotecas digitais, ontologias e web semântica.
+
+  \item [Fabricio Solagna]
+  - Consultor do participa.br e mestrando em Sociologia pela Universidade Federal do Rio Grande do Sul (UFRGS). É pesquisador e membro fundador do Grupo de Trabalho de Antropologia da Propriedade Intelectual (ANTROPI). É membro da Associação Software Livre.Org e organizador do Fórum Internacional de Software Livre (FISL). Foi coordenador-executivo do Gabinete Digital do Rio Grande do Sul de 2011 a 2013 (www.gabinetedigital.rs.gov.br). 
+
+  \item [Ana Célia da Silva Costa]
+  - Consultora do participa.br. Especialista em Marketing Digital pelo Instituto de Ensino Superior de Brasília. Formada em Comunicação com habilitação em Jornalismo, pela Universidade Federal do Amazonas. Pesquisadora de Social Media Monitoring. Trabalha na área desde 2005. Clientes: Embaixada do Reino Unido, Governo do Espírito Santo, Governo do Distrito Federal, Ministério da Saúde, Ministério da Integração, Governo da Bahia e outros. 
+
+  \item [Grazielle Machado Fernandes]
+  - Consultora do participa.br. Formada em jornalismo com especialização em política. Trabalha com comunicação e novas mídias desde 2008, ajudou a implementar a chamada assessoria 2.0 no ministério da Cultura e trabalhou em agência de públicidade como coordenadora de planejamento onde desenvolveu projetos para grandes clientes, entre eles: Partido dos Trabalhadores, Banco do Brasil, SESI, Unesco e BNDES. 
+
+\end{description}
+
+Além destes atores envolvidos diretamente no desenvolvimento e implementação do
+Participa.br houve também enorme participação de comunidades de Software
+Livre e algumas Entidades preocupadas com o tema do projeto.
+
+\begin{itemize}
+
+  \item Comunidade Noosfero
+  \item Colivre - Cooperativa de Software Livre - Salvador - Bahia
+  \item STOA/USP
+  \item Comunidade UNB
+  \item Grupo de alunos e professores de desenvolvimento do Laboratório LAPIS da UNB/Gama em Brasília
+  \item SERPRO
+  \item Secretaria Geral da Presidência (SG/PR)
+  \item Ministério do Planejamento Orçamento e Gestão (MPOG)
+  \item Portal do Software Público
+  \item Secretaria de Logística e Tecnologia da Informação (SLTI)
+  \item EITA (Cooperativa de Economia Solidária)
+  \item Blogoosfero (Rede livre de blogs)
+
+\end{itemize}
 
 \subsection{Recursos tecnológicos}
 
@@ -689,7 +690,7 @@ O foco da plataforma Noosfero é ser uma rede social para produção e publicaç
 de conteúdo multimídia na Internet. Tudo o que for inserido na plataforma web
 pode ser compartilhado de forma colaborativa. Ao fazer o cadastro, a/o
 usuária/o internauta ganha um perfil, que pode também ter a função de site ou
-blog, com sistema de notificação de comentários e adição de amig@s.
+blog, com sistema de notificação de comentários e adição de amigos.
 
 Cada perfil de usuário funciona como uma página pessoal com o privilégio de
 personalização de layout, como também do endereço de acesso (URL). O usuário
@@ -703,8 +704,8 @@ que não entendem nada de programação.
 
 O processo de desenvolvimento de portais (ambiente online) com um mínimo de
 complexidade é formado por dois elementos principais: a parte da frente
-(conhecida no jargão técnico como ``front end'') e os códigos que garantem o
-funcionamento do ambiente e a comunicação com o banco de dados (``back end'').
+(conhecida no jargão técnico como {\it ``frontend''}) e os códigos que garantem o
+funcionamento do ambiente e a comunicação com o banco de dados ({\it ``backend''}).
 
 Do ponto de vista técnico, a plataforma Noosfero utiliza as seguintes
 tecnologias livres:
@@ -720,7 +721,7 @@ tecnologias livres:
   Governo dos EUA, entre outras organizações internacionais.  No Brasil, existe
   uma forte comunidade de usuários (www.postgresql.org.br) que, por exemplo,
   organiza anualmente o PGBR: o maior evento sobre PostgreSQL das Américas
-  (http://pgbr.postgresql.org.br/2011/evento.php).
+  \footnote{\url{http://pgbr.postgresql.org.br/2011/evento.php}}.
 
   \item [Linguagem de programação Ruby\footnote{\url{www.ruby-lang.org}}]
 
@@ -732,6 +733,8 @@ tecnologias livres:
   plataformas web de alcance internacional como, por exemplo, Groupon,
   Mailee.me entre outras plataformas.
 
+  \item [Framework de aplicações web Ruby on Rails]
+  
   Ruby on Rails é um framework livre que amplia a velocidade e facilidade no
   desenvolvimento de sites orientados a banco de dados (database-driven web
   sites), uma vez que é possível criar aplicações com base em estruturas
@@ -754,8 +757,6 @@ memória, disco rígido (``HD'') de 82gb, processador Intel(R) Xeon(R) CPU E7-
 4870 @ 2.40GHz com 8 cores.
  
 \section{Resultados}
-
-(pendente\ldots)
 
 % * Legados (plataformas e ferramentas de software desenvolvidas, impacto em
 %   outras iniciativas, projetos que nasceram inspirados no participa.br, pessoas
@@ -780,7 +781,7 @@ presentes na plataforma: Associação Software Livre e Governo do Distrito
 Federal.
 
 Podemos destacar algumas das comunidades e processos participativos realizados
-no participa.br que obtiveram maior mobilização, interações e destaque:
+no Participa.br que obtiveram maior mobilização, interações e destaque:
 
 \begin{description}
 
