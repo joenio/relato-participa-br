@@ -22,3 +22,19 @@ Dependencias de compilação:
 Para compilar basta executar `make`:
 
     make
+
+## Bibliografia
+
+As referências utilizadas no artigo (incluindo pdf) estão na plataforma Zotero,
+no grupo abaixo:
+
+* https://www.zotero.org/groups/relato-participa-br/items
+
+Para editar, incluir ou excluir itens da bibliografia é recomendado criar uma
+conta no Zotero.org, possui clientes para Linux, Windows e macOS:
+
+* https://www.zotero.org/download/
+
+Após editar itens da biblioteca no Zotero é necessário atualizar o arquivo
+`bibliografia.bib` incluído aqui neste repositório, o Zotero exporta em
+diversos formatos, incluindo BibTeX.
